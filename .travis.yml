@@ -5,7 +5,7 @@ language: generic
 services:
   - docker
 
-befor_install:
+before_install:
   - echo "start Creating an image with dockerfile"
   - docker build -t junseok0216/docker-react-app -f Dockerfile.dev .
 
